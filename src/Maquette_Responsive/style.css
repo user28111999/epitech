@@ -1,0 +1,439 @@
+@media only screen and (max-width: 480px) {
+	#logoSafy {
+		width: 100%;
+		height: 130px;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.menu ul li {
+		width: 300px;
+	}
+
+	.menu ul li ul li {
+		width: 300px;
+	}
+
+	.slider .slideshow {
+		width: 100%;
+	}
+
+	.container article {
+		width: 100%;
+	}
+
+	.gallery .flags {
+		width: 280px;
+	}
+
+	.section #sub-section-one {
+		width: 100%;
+	}
+
+	.section #sub-section-two {
+		width: 100%;
+	}
+
+	.section #sub-section-two .sub-images {
+		width: 20%;
+	}
+
+	.section #sub-section-two .string {
+		width: 80%;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #a9fcf9;
+	font-family: sans-serif;
+	line-height: 1;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, .string {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #453c34;
+}
+
+h2 {
+	font-weight: bold;
+	padding-top: 20px;
+	margin-right: 15px;
+	margin-left: 100px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+h3 {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 35px;
+	font-size: 24px;
+	color: black;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/* header */
+
+.btn {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+
+.facebook {
+	padding-left: 10px;
+}
+
+.header {
+	height: 68px;
+	border-bottom: 1px solid black;
+}
+
+.header a {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.menu {
+	background-color: #997aff;
+	border-bottom: 1px solid black;
+}
+
+#logoSafy {
+	width: 400px;
+	height: 131px;
+	display: block;
+	float: left;
+}
+
+.menu ul {
+	margin-top: 60px;
+	float: right;
+}
+
+.menu li {
+	float: left;
+	margin: 0 10px;
+	position: relative;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.menu li ul {
+	display: none;
+	position: absolute;
+	top: -45px;
+	left: -10px;
+	z-index: 9999;
+}
+
+.menu li ul li {
+	display: block;
+	height: 25px;
+	width: 100px;
+	padding-left: 10px;
+	line-height: 20px;
+	background-color: #a9fcf9;
+	border-bottom: solid 1px black;
+	border-radius: 2px;
+}
+
+/* carousel OR slider */ 
+
+.slider {
+	padding-top: 50px;
+	border-bottom: 1px solid black;
+}
+
+.slideshow {
+	position: relative;
+	width: 940px;
+	height: 360px;
+	overflow: hidden;
+}
+
+.slideshow li a {
+	z-index: 99;
+	position: absolute;
+	top: 150px;
+	height: 45px;
+	width: 45px;
+}
+
+.prev {
+	background-image: url("Maquette_Responsive/2.png");
+	left: 10px;
+	opacity: 0.7;
+}
+
+.next {
+	background-image: url("Maquette_Responsive/2.png");
+	background-position: -45px 0px;
+	right: 10px;
+	opacity: 0.7;
+}
+
+.prev:hover {
+	opacity: 1;
+	transition: .2s ease-in-out;
+}
+
+.next:hover {
+	opacity: 1;
+	transition: .2s ease-in-out;
+}
+
+.navigation {
+	margin: 30px auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline;
+}
+
+.navigation a {
+	width: 25px;
+	height: 30px;
+	background: url("Maquette_Responsive/1.png") 0 0 no-repeat;
+	position: relative;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.navigation a:hover {
+	background-position: 0 -30px;
+	transition: .2s ease-in-out;
+}
+
+.navigation a:focus {
+	background-position: 0 -60px;
+	transition: .2s ease-in-out;
+}
+
+/* article */ 
+
+.article {
+	background-color: white;
+}
+
+.article article {
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	padding-right: 5px;
+	color: black;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.article article.last-child {
+	margin-right: 0px;
+}
+
+.article article header {
+	height: 150px;
+	margin-bottom: 10px;
+	background-color: #997aff;
+}
+
+.article article img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.article article a {
+	color: #ff0000;
+}
+
+.gallery {
+	background-color: white;
+	border-bottom: solid 1px black;
+}
+
+.gallery .container {
+	position: relative;
+}
+
+.gallery .sub-container {
+	float: left;
+}
+
+.gallery .string {
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 95px;
+	font-weight: bold;
+}
+
+.gallery .flags {
+	width: 281px;
+	height: 140px;
+	padding: 5px 5px 5px 5px;
+	margin-top: 30px;
+	margin-right: 22px;
+	margin-left: 10px;
+	border: 1px solid rgba(0, 0, 0, .25);
+	border-radius: 5px;
+}
+
+/* section */ 
+
+.section {
+	color: black;
+	padding-bottom: 80px;
+	border-bottom: solid 1px black;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.section #sub-section-one {
+	float: left;
+	width: 450px;
+	margin-right: 20px;
+}
+
+.section #sub-section-one p {
+	padding-bottom: 30px;
+}
+
+.section #sub-section-two {
+	float: left;
+	width: 460px;
+}
+
+.section #sub-section-two .sub-container {
+	min-height: 120px;
+	margin-bottom: 20px;
+}
+
+.section #sub-section-two .string {
+	float: left;
+	width: 362px;
+	padding-left: 20px;
+}
+
+.section #sub-section-two .sub-images {
+	float: left;
+	width: 98px;
+}
+
+.section #sub-section-three {
+	clear: both;
+}
+
+.section #sub-section-three h3 {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+
+/* footer */ 
+
+.footer {
+	background-color: #9a99ff;
+	padding-bottom: 45px;
+}
+
+.footer ul {
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.footer ul li {
+	float: left;
+}
+
+.footer ul li:after {
+	padding-right: 30px;
+	content: "";
+}
+
+.footer ul li a {
+	font-size: 12px;
+	transition: .5s ease-in-out;
+}
+
+.footer ul li a:hover {
+	color: white;
+}
+
+.subscribe {
+	background-color: lightgreen;
+	color: white;
+	display: block;
+	width: 120px;
+	height: 50px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: solid 1px black;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+.subscribe:hover {
+	transition: .2s ease-in-out;
+	filter: hue-rotate(90deg);
+}
+
+#egg {
+	display: block;
+	font-size: 12px;
+	color: black;
+}
+
+#egg a:hover {
+	transition: .2s ease-in-out;
+	color: #9a99ff;
+}

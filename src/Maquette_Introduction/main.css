@@ -1,0 +1,356 @@
+@font-face
+{
+	font-family: 'Oswald';
+	src: url("maquette_2/fonts/Oswald-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: 'Droid Sans';
+	src: url("maquette_2/fonts/DroidSans.ttf");
+}
+
+@font-face
+{
+	font-family: 'Droid Serif';
+	src: url("maquette_2/fonts/DroidSerif-Regular.ttf");
+}
+
+/* responsive todo */
+@media only screen and (max-width: 480px) 
+{
+	body
+	{
+		font-size: 10px;
+		width: 50%;
+	}
+
+	.container
+	{
+		width: 470px;
+	}
+
+	header
+	{
+		width: 75%;
+		padding: 200px;
+	}
+}
+
+/*bases*/
+body
+{
+	color: gray;
+	font-family: 'Droid Sans';
+	font-size: 12px;
+}
+
+.container
+{
+	width: 940px;
+	margin: auto;
+}
+
+.container a
+{
+	text-decoration: none;
+}
+
+
+.title-head
+{
+	font-family: 'Oswald';
+	color: orange;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+span
+{
+	font-family: 'Droid Serif';
+	font-size: 10px;
+	color: gray;
+	opacity: 0.95;
+	margin: 0px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.read-more
+{
+	font-family: 'Droid Serif';
+	font-style: italic; 
+	font-size: 11px;
+	color: gray;
+}
+
+
+/*header*/
+header
+{
+	width: 100%;
+	background-image: url(maquette_2/misc/grille.png);
+	background-repeat: repeat;
+	margin-bottom: 10px;
+	padding: 30px;
+}
+
+header #logo
+{
+	display: inline-block;
+	padding-right: 50px; 
+}
+
+nav,
+nav ul
+{
+	display: inline-block;
+}
+
+nav ul li:first-child /* titre navigation */
+{
+	font-family: 'Oswald';
+	margin-bottom: 8px;
+	font-size: 15px;
+	padding-bottom: 7px;
+}
+
+nav ul li
+{
+	padding-right: 20px;
+	padding-top: 5px;
+	color: gray;
+	list-style: none;
+}
+
+nav ul li a 
+{
+	text-decoration: none;
+	color: gray;
+}
+
+nav ul li a:hover
+{
+	text-decoration: none;
+	opacity: 0.5;
+	transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+
+.orange
+{
+	border-bottom: 5px solid orange;
+	opacity: 0.95;
+}
+
+.yellow
+{
+	border-bottom: 5px solid yellow;
+	opacity: 0.95;	
+}
+
+.greenyellow
+{
+	border-bottom: 5px solid greenyellow;
+	opacity: 0.95;
+}
+
+.blue
+{
+	border-bottom: 5px solid blue;
+	opacity: 0.95;
+}
+
+.blueviolet
+{
+	border-bottom: 5px solid blueviolet;
+	opacity: 0.95;
+}
+
+#youtube iframe
+{
+	padding: 50px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	width: 600px; 
+	height: 375px;
+}
+
+/* phrase du milieu */
+.middle
+{
+	background-image: url(maquette_2/misc/grille.png);
+	font-family: 'Droid Serif';
+	font-size: 20px;
+	color: gray;
+	padding: 30px;
+	text-align: center;
+}
+
+/* main article */
+.main-article
+{
+	padding: 30px 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.main-article h2
+{
+	margin: 0px;
+}
+
+.main-article p
+{
+	color: gray;
+	line-height: 18px;
+}
+.main-article a
+{
+	text-decoration: none;
+	color: gray;
+}
+
+.main-article a:hover
+{
+	text-decoration: none;
+}
+
+.col-1
+{
+	padding: 10px 15px;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+}
+
+.col-2
+{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-right: -4px;
+	margin-left: 20px;
+}
+
+.col-3
+{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-right: -4px;
+	margin-left: 20px;
+}
+
+.col-3 img
+{
+	border: 1px solid #F0F0F0;
+	margin: 5px 5px 5px 0px;
+	padding: 10px;
+	padding-right: 10px;
+	opacity: 1;
+}
+
+.col-3 img:hover
+{
+	transform: scale(1.05);
+	opacity: 0.5;
+	transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+
+/* sous-article */
+.sous-article
+{
+	background-image: url(maquette_2/misc/grille.png);
+	padding: 20px;
+}
+
+.contact 
+{
+	display: inline-block;
+	width: 20%;
+}
+
+.contact img
+{
+	float: left;
+}
+.contact ul
+{
+	padding: 0px;
+}
+
+.contact ul li
+{
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.sous-article article
+{
+	display: inline-block;
+	width: 19%;
+	margin-left: 60px;
+	vertical-align: top;
+}
+
+.sous-article h2
+{
+	font-family: 'Oswald';
+	font-size: 15px;
+	color: gray;
+	opacity: 0.95;
+}
+
+.sous-article a, 
+.sous-article a:visited
+{
+	text-decoration: underline;
+	color: #676464;
+}
+
+/* footer */
+footer
+{
+	padding: 20px 0px;
+}
+
+footer ul
+{
+	padding: 0px;
+}
+
+footer ul li,
+footer ul li a:hover,
+footer ul li a:visited
+{
+	display: inline-block; 
+	list-style: none;
+	text-decoration: none;
+	color: gray;
+}
+
+footer img
+{
+	float: right;
+	margin-right: 5px;
+	opacity: 1;
+}
+
+footer img:hover
+{
+	opacity: 0.5;
+	transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript_Avance_my_paint</title>
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div id="toolbar">
+		<div id="size">
+			<div id="decsize" class="sizecontrol">-</div>
+			<span id="sizeval"></span>
+			<div id="incsize" class="sizecontrol">+</div>
+		</div>
+		<div><form><input type="color" id="colors"></form></div>
+		<br><a href="#">__________</a><br>
+		<br>
+		<div id="brush"><b><a href="#">BRUSH</a></b></div>
+		<div id="eraser"><b><a href="#">ERASER</a></b></div>
+		<div id="clear"><b><a href="#">CLEAR</a></b></div>
+		<br><a href="">__________</a><br>
+		<br>
+		<div id="line"><b><a href="#">LINE</a></b></div>
+		<div id="square"><b><a href="#">SQUARE</a></b></div>
+		<div id="circle"><b><a href="#">CIRCLE</a></b></div>
+	</div>
+	<div id="canva">
+		<canvas id="canvas" width="2000" height="1000"></canvas>
+	</div>
+	<script src="paint.js"></script>
+</body>
+</html>

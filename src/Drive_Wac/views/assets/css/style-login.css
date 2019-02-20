@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+ 	overflow: hidden;
+}
+
+body {
+ 	margin: 0 auto;
+ 	color: #fff;
+ 	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+ 	filter: invert(100%);
+ 	display: block;
+ 	margin-top: 75px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+h2 {
+ 	text-align: center;
+}
+
+p {
+ 	width: 50%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	color: #fff;
+}
+
+h5 {
+	margin-top: 50px;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 20px;
+}
+
+h5 a {
+	color: #a3a3a3;
+}
+
+a {
+ 	text-decoration: none;
+ 	color: #bababa;
+ 	transition: .3s ease-in-out;
+}
+
+a:hover {
+ 	text-decoration: none;
+ 	color: #fff;
+}
+
+.main {
+ 	margin-top: 50px;
+}
+
+.background {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	z-index: -1;
+ 	filter: blur(25px);
+ 	background: linear-gradient(-80deg, #a5a5a5, #777777, #e2e2e2, #333);
+ 	background-size: 400% 400%;
+ 	animation: Gradient 15s ease infinite;
+}
+
+.background:after {
+ 	content: '';
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 100%;
+ 	z-index: 1001;
+ 	background: linear-gradient(-80deg, #a5a5a5, #777777, #e2e2e2, #333);
+ 	background-size: 400% 400%;
+ 	animation: Gradient 15s ease infinite;
+ 	filter: blur(50px);
+}
+
+.form-control {
+ 	color: #a5a5a5;
+ 	transition: .5s ease-in-out;
+ 	width: 30%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align: center;
+ 	border-radius: 0;
+ 	border-color: #ccc;
+ 	border-width: 0 0 2px 0;
+ 	border-style: none none solid none;
+ 	box-shadow: none;
+ 	background: transparent;
+}
+
+.form-control::placeholder {
+ 	color: #a5a5a5;
+ 	transition: .5s ease-in-out;
+}
+
+
+.form-control:focus {
+ 	box-shadow: none;
+ 	border-color: #fff;
+ 	color: #e5e5e5;
+}
+
+.btn-start-order {
+ 	background: 0 0 transparent;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	line-height: inherit;
+ 	margin: 30px 0;
+ 	padding: 0px 50px;
+ 	text-transform: uppercase;
+ 	transition: all 0.25s ease 0s;
+}
+
+.btn-start-order:hover {
+ 	color: #bababa;
+}
+
+@keyframes Gradient {
+ 	0% {
+ 		background-position: 0% 50%
+ 	}
+ 	50% {
+ 		background-position: 100% 50%
+ 	}
+ 	100% {
+ 		background-position: 0% 50%
+ 	}
+}
