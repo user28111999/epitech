@@ -55,6 +55,12 @@ Same as Maquette_Introduction but with a working Carousel in CSS and it had to b
 
 Google Drive clone using PHP and stuff 
 
+### Previously_On
+
+MyAnimeList but with TV shows & movies 
+
+run it with npm run start (be sure to do a npm install first)
+
 ## Meta
 
 There are a lot more projects but I mostly lost them, we mostly worked with PHP, SQL, HTML, CSS and different frameworks such as Laravel, Symfony, jQuery, Bootstrap, etc...
