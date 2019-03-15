@@ -1,65 +1,41 @@
+
 # Web@cadémie 2020
 
 Here are the different projects I had to make for school. We had 1 week to make all of these.
 
 ## Projects
+<ul>
+<h3>Algorythmie</h3>
+	
+	Battleship /* Battleship game in PHP */
+	
+	MatchStick /* Matchstick game in Python */
+	
+	Prime_Numbers /* Checks if the number is a primary number */
+	
+	BSQ /* Looking for the greatest square based on strings */
+</ul>
+<ul>
+<h3>Programs & Scripts</h3>
 
-### Framework_Bootstrap
+	WacTorrent /* Torrent client made in Python {with useless classmates since I did it all by myself and the ** leader didn't submit it to the professor} */
+</ul>
 
-We had to create a Bootstrap clone using SASS to learn it. 
+<ul>
+<h3>Web General</h3>
 
-You can actually see a demo from [here](https://yunseok.github.io/projects/web/Framework_Bootstrap)
+	Drive_Wac /* Google Drive clone made in PHP */
+	
+	Framework_Bootstrap /* Bootstrap clone made in SASS and jQuery */
+	
+	Maquette_Introduction /* Making a single web page based on a picture (I got the best note for this project yay!) */
+	Maquette_Responsive /* Making a single web page based on a picture with responsive */
+	
+	My_Paint /* Similar Paint App made with jQuery using canvas */
+	
+	Previously_On /* Website to track your tv shows and where you stopped. (Similar to MyAnimeList) Made with Node JS, React, Express, and MongoDB */
+</ul>
 
-### matchstick
-
-This project was used to work with algorithm and it is the matchstick game in Python, to use it: 
-
-
-```bash
-python matchstick.py <number of lines> <number of max sticks to put out>
-```
-
-### WacTorrent
-
-Group project (with useless classmates as usual), we had to create a torrent client using Python. This project was used to learn Python.
-
-Be sure to put torrents file in the /torrents folder
-
-```bash
-python ./wacTorrent_CLI.py
-```
-
-The program will create a folder called /downloads and download the torrents in that folder
-
-### Battleship
-
-Another project to learn more about algorithm in programming languages this time, it's PHP.
-
-### prime_numbers
-
-Early school project. It's about knowing if a number is a prime number. Made in PHP. 
-
-### my_paint
-
-Creating a Paint clone application with jQuery
-
-### Maquette_Introduction
-
-I had to create a HTML, CSS website based from a picture. 
-
-### Maquette_Responsive
-
-Same as Maquette_Introduction but with a working Carousel in CSS and it had to be responsive
-
-### Drive_Wac
-
-Google Drive clone using PHP and stuff 
-
-### Previously_On
-
-MyAnimeList but with TV shows & movies 
-
-run it with npm run start (be sure to do a npm install first)
 
 ## Meta
 
