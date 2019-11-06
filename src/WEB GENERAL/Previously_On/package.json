@@ -11,7 +11,7 @@
     "express": "^4.16.2",
     "express-fileupload": "^0.3.0",
     "google-maps-react": "^1.1.2",
-    "mongoose": "^5.4.15",
+    "mongoose": "^5.7.5",
     "mongoose-migrate-2": "^0.2.5",
     "npm-watch": "^0.6.0",
     "react": "^16.1.1",
