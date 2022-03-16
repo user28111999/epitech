@@ -1,6 +1,3 @@
-
-# Web@cadémie 2019
-
 Here are the different projects I had to make for school. We had 1 week to make all of these. All the projects are completed and functional. 
 
 ## Projects
